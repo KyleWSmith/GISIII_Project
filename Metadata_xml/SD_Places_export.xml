@@ -1,0 +1,403 @@
+﻿<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <language>
+    <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+  </language>
+  <characterSet>
+    <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+  </characterSet>
+  <hierarchyLevel>
+    <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+  </hierarchyLevel>
+  <hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </hierarchyLevelName>
+  <contact>
+    <CI_ResponsibleParty>
+      <individualName>
+        <gco:CharacterString>Ross Martin</gco:CharacterString>
+      </individualName>
+      <organisationName>
+        <gco:CharacterString>County of San Diego</gco:CharacterString>
+      </organisationName>
+      <positionName>
+        <gco:CharacterString>County GIS Manager</gco:CharacterString>
+      </positionName>
+      <contactInfo>
+        <CI_Contact>
+          <phone>
+            <CI_Telephone>
+              <voice>
+                <gco:CharacterString>858-334-3829</gco:CharacterString>
+              </voice>
+              <facsimile>
+                <gco:CharacterString>NA</gco:CharacterString>
+              </facsimile>
+            </CI_Telephone>
+          </phone>
+          <address>
+            <CI_Address>
+              <deliveryPoint>
+                <gco:CharacterString>5510 Overland Ave</gco:CharacterString>
+              </deliveryPoint>
+              <city>
+                <gco:CharacterString>San Diego</gco:CharacterString>
+              </city>
+              <administrativeArea>
+                <gco:CharacterString>California</gco:CharacterString>
+              </administrativeArea>
+              <postalCode>
+                <gco:CharacterString>92116</gco:CharacterString>
+              </postalCode>
+              <electronicMailAddress>
+                <gco:CharacterString>Ross.Martin@sdcounty.ca.gov</gco:CharacterString>
+              </electronicMailAddress>
+            </CI_Address>
+          </address>
+          <contactInstructions>
+            <gco:CharacterString>Email please</gco:CharacterString>
+          </contactInstructions>
+        </CI_Contact>
+      </contactInfo>
+      <role>
+        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner" codeSpace="ISOTC211/19115">owner</CI_RoleCode>
+      </role>
+    </CI_ResponsibleParty>
+  </contact>
+  <dateStamp>
+    <gco:Date>2017-11-13</gco:Date>
+  </dateStamp>
+  <metadataStandardName>
+    <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+  </metadataStandardName>
+  <metadataStandardVersion>
+    <gco:CharacterString>2007</gco:CharacterString>
+  </metadataStandardVersion>
+  <locale>
+    <PT_Locale>
+      <languageCode>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+      </languageCode>
+      <country>
+        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+      </country>
+      <characterEncoding>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+      </characterEncoding>
+    </PT_Locale>
+  </locale>
+  <spatialRepresentationInfo>
+    <MD_VectorSpatialRepresentation>
+      <topologyLevel>
+        <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+      </topologyLevel>
+      <geometricObjects>
+        <MD_GeometricObjects>
+          <geometricObjectType>
+            <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115">point</MD_GeometricObjectTypeCode>
+          </geometricObjectType>
+          <geometricObjectCount>
+            <gco:Integer>57</gco:Integer>
+          </geometricObjectCount>
+        </MD_GeometricObjects>
+      </geometricObjects>
+    </MD_VectorSpatialRepresentation>
+  </spatialRepresentationInfo>
+  <referenceSystemInfo>
+    <MD_ReferenceSystem>
+      <referenceSystemIdentifier>
+        <RS_Identifier>
+          <code>
+            <gco:CharacterString>2230</gco:CharacterString>
+          </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </codeSpace>
+          <version>
+            <gco:CharacterString>5.3(9.0.0)</gco:CharacterString>
+          </version>
+        </RS_Identifier>
+      </referenceSystemIdentifier>
+    </MD_ReferenceSystem>
+  </referenceSystemInfo>
+  <identificationInfo>
+    <MD_DataIdentification>
+      <citation>
+        <CI_Citation>
+          <title>
+            <gco:CharacterString>Common Public Transit Destinations</gco:CharacterString>
+          </title>
+          <alternateTitle>
+            <gco:CharacterString>Places of Interest</gco:CharacterString>
+          </alternateTitle>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2012-03-01</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2017-04-24</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2017-01-29</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <edition>
+            <gco:CharacterString>4th</gco:CharacterString>
+          </edition>
+          <editionDate>
+            <gco:Date>2017-01-29</gco:Date>
+          </editionDate>
+          <presentationForm>
+            <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+          </presentationForm>
+          <collectiveTitle>
+            <gco:CharacterString>Local San Diego Region version of GNIS </gco:CharacterString>
+          </collectiveTitle>
+        </CI_Citation>
+      </citation>
+      <abstract>
+        <gco:CharacterString>Point layer to show the location of areas and specific features such as buildings, mile markers, and mountain tops Five layers of place data was combined to make this single layer into a single layer; those of: PLACES (Was SANGIS.PLACES renamed PLACES_OLD); SHERIFF_PLACE_NAMES (Sheriff's place name file for dispatch);PLACES_SG SANDAG Places layer; PLACE_NAMES (Geographic Names Information System /GNIS, assumed); PLACES_CASINOS Casinos.In PLACES_CASINOS fields were added named ADDR and CITYNM and calculated equal to existing fields ADDRESS and CITY to facilitate the appending process.PLACES and PLACES_SG initially contained MULTIPOINT features; TOOLBOX Feature to Point was used to make the features POINT. The working layers were then called PLACES_SG_FeatureToPoint and PLACES_OLD_FeatureToPoint.In the PLACES layer 3 fields were widened for consistency with similarly named fields in other layers. NAME was widened from 32 to 200; ADDR was widened from 32 to 75; TYPE was widened from 20 to 254. After 2 versions the layer was named PLACES_OLD_FeatureToPoint2. PLACES_OLD_FeatureToPoint2 (which was originally PLACES) was copied to a feature class named PLACES_COMBINED. The other 4 feature classes were then appended with the NOTEST option. The name of the original layers where each point resided is in an added field FEA_SRC.The geodatabase was then copied, renamed PLACES_OUTPUT_20100730 and unneeded intermediate results were deleted.The final result is the feature class PLACES_COMBINED in the geodatabase PLACES_OUTPUT_20100730.For the most part, the attribute fields align with the original 5 datasets that were used to create Places. However, some fields were deleted, as they did not apply to the other datasets. Other fields were assigned an attribute domain. These include: CityNm, CommunityNm, EntityType, and Fea_Src. The CityNm is comprised of the 18 incorporated cities within the County, as well as S.D. County. CommunityNm was a field that was added, since data entered under the CityNm field were actually communities. This domain includes 184 community and neighborhood names. The EntityType domain was taken directly from Bing's entity types and descriptions. It was then modifed to be more easily understood and simplified. The Fea_Src domain lists the 5 original data sources, plus Bing as a future data source.</gco:CharacterString>
+      </abstract>
+      <purpose>
+        <gco:CharacterString>The places dataset was derived from the Places feature class to include places frequented by users of public and bike transit networks.  The centerpoints include schools, parks, hospitals, military bases, post offices, and factories. </gco:CharacterString>
+      </purpose>
+      <credit>
+        <gco:CharacterString>Staff at San Diego Data Processing, students and department of planning and land use, staff at SanGIS, the San Diego Sheriff's department dispatchers, and several commercial and open source resources. New additions are welcome and can be added at a pubnlically editable website on ArcGIS Online located here:
+http://sdcounty.maps.arcgis.com/home/item.html?id=39e8e1bc060c44b7b80fef12a1de9c1c#overview
+</gco:CharacterString>
+      </credit>
+      <status>
+        <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing" codeSpace="ISOTC211/19115">onGoing</MD_ProgressCode>
+      </status>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>San Diego region, places around san diego, Carlsbad, unicorporated, julian, escondido, Chula Vista, City of San Diego, County of San Diego</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal" codeSpace="ISOTC211/19115">temporal</MD_KeywordTypeCode>
+          </type>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>2012</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal" codeSpace="ISOTC211/19115">temporal</MD_KeywordTypeCode>
+          </type>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Places of Interest, GNIS, Geonames, places, locations, business, mile markers, land marks, peaks, valleys, topographic features, historical markers, building complexes</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+          </type>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Downloadable Data</gco:CharacterString>
+          </keyword>
+          <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66" />
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <resourceConstraints>
+        <MD_Constraints>
+          <useLimitation>
+            <gco:CharacterString>This map/data is provided without warranty of any kind, either expressed or implied, including but not limited to, the implied warranties of merchantability and fitness for a particular purpose. This product may contain information from the SANDAG Regional Information System which cannot be reproduced without the written permission of SANDAG. Copyright SanGIS 2016. All rights reserved. Full text of this legal notice can be found at http://www.sangis.org/legal_notice.htm.SPECIFIC NOTICE ABOUT SOURCE OF CONTENT - All statements, online actions of any type, uploads, downloads, edits, speech, transmittal and re-transmittal of all information via all types of digital data disseminated in this specific online service described here (hereafter referred to as “content”) are for informational purposes only and do not necessarily reflect the thoughts and opinions of County of San Diego or any employee thereof. We make no warranties, express or implied, as to the accuracy and reliability of such content.We will not be responsible for the unauthorized disclosure of any such restricted information if that information was transmitted to us via third-party internet Software as a Service (SaaS), networking services, communication services, or media sharing services.We reserve the right to delete, edit, or alter in any manner we see fit entries or comments on Software as a Service (SaaS), social networking services, communication services, or media sharing services that we, in our sole discretion, deem to be obscene, offensive, defamatory, threatening, in violation of trademark, copyright or other laws, of an express commercial nature, or otherwise unacceptable.In addition to the these policies, our engagement with you is also governed by the policies and/or terms of service of the respective Software as a Service (SaaS) and social networking services, communication services, or media sharing services being used. We encourage you to review them at www.ESRI.comServices provided by us on this third-party application service provider and networking services, communication services, or media sharing services may be discontinued at any time without prior notice.</gco:CharacterString>
+          </useLimitation>
+        </MD_Constraints>
+      </resourceConstraints>
+      <spatialRepresentationType>
+        <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+      </spatialRepresentationType>
+      <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+      </language>
+      <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+      </characterSet>
+      <topicCategory>
+        <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>economy</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>imageryBaseMapsEarthCover</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>location</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>planningCadastre</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>structure</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>transportation</MD_TopicCategoryCode>
+      </topicCategory>
+      <environmentDescription>
+        <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</gco:CharacterString>
+      </environmentDescription>
+      <extent>
+        <EX_Extent>
+          <description>
+            <gco:CharacterString>The data was complied in teh time period of 2012, but has features that date back to the 1800s. The most current data is refected in the time stamp of the data by its edit period.</gco:CharacterString>
+          </description>
+          <temporalElement>
+            <EX_TemporalExtent>
+              <extent>
+                <gml:TimeInstant gml:id="ID0E3H">
+                  <gml:timePosition>2017-04-24T00:00:00</gml:timePosition>
+                </gml:TimeInstant>
+              </extent>
+            </EX_TemporalExtent>
+          </temporalElement>
+        </EX_Extent>
+      </extent>
+      <extent>
+        <EX_Extent>
+          <description>
+            <gco:CharacterString>The County of san Diego in the State of California. The southwestern most point in the CONUS.</gco:CharacterString>
+          </description>
+          <geographicElement>
+            <EX_GeographicBoundingBox>
+              <westBoundLongitude>
+                <gco:Decimal>-118</gco:Decimal>
+              </westBoundLongitude>
+              <eastBoundLongitude>
+                <gco:Decimal>-115</gco:Decimal>
+              </eastBoundLongitude>
+              <southBoundLatitude>
+                <gco:Decimal>31</gco:Decimal>
+              </southBoundLatitude>
+              <northBoundLatitude>
+                <gco:Decimal>33</gco:Decimal>
+              </northBoundLatitude>
+            </EX_GeographicBoundingBox>
+          </geographicElement>
+          <geographicElement>
+            <EX_GeographicDescription>
+              <extentTypeCode>
+                <gco:Boolean>false</gco:Boolean>
+              </extentTypeCode>
+              <geographicIdentifier gco:nilReason="missing" />
+            </EX_GeographicDescription>
+          </geographicElement>
+        </EX_Extent>
+      </extent>
+      <extent>
+        <EX_Extent>
+          <geographicElement>
+            <EX_GeographicBoundingBox>
+              <extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </extentTypeCode>
+              <westBoundLongitude>
+                <gco:Decimal>-117.207381</gco:Decimal>
+              </westBoundLongitude>
+              <eastBoundLongitude>
+                <gco:Decimal>-117.138851</gco:Decimal>
+              </eastBoundLongitude>
+              <southBoundLatitude>
+                <gco:Decimal>32.704443</gco:Decimal>
+              </southBoundLatitude>
+              <northBoundLatitude>
+                <gco:Decimal>32.740812</gco:Decimal>
+              </northBoundLatitude>
+            </EX_GeographicBoundingBox>
+          </geographicElement>
+        </EX_Extent>
+      </extent>
+    </MD_DataIdentification>
+  </identificationInfo>
+  <distributionInfo>
+    <MD_Distribution>
+      <distributionFormat>
+        <MD_Format>
+          <name>
+            <gco:CharacterString>File Geodatabase Feature Class</gco:CharacterString>
+          </name>
+          <version>
+            <gco:CharacterString>10.3</gco:CharacterString>
+          </version>
+        </MD_Format>
+      </distributionFormat>
+      <distributor>
+        <MD_Distributor>
+          <distributorContact>
+            <CI_ResponsibleParty>
+              <individualName>
+                <gco:CharacterString>SanGIS</gco:CharacterString>
+              </individualName>
+              <organisationName>
+                <gco:CharacterString>SanGIS</gco:CharacterString>
+              </organisationName>
+              <positionName>
+                <gco:CharacterString>Spatial Librarian </gco:CharacterString>
+              </positionName>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </distributorContact>
+          <distributionOrderProcess>
+            <MD_StandardOrderProcess>
+              <fees>
+                <gco:CharacterString>None</gco:CharacterString>
+              </fees>
+              <orderingInstructions>
+                <gco:CharacterString>(http://www.sangis.org/services/index.html) to obtain further information</gco:CharacterString>
+              </orderingInstructions>
+            </MD_StandardOrderProcess>
+          </distributionOrderProcess>
+        </MD_Distributor>
+      </distributor>
+      <distributor>
+        <MD_Distributor>
+          <distributorContact gco:nilReason="missing" />
+          <distributionOrderProcess>
+            <MD_StandardOrderProcess>
+              <orderingInstructions>
+                <gco:CharacterString>Downloadable as a shapefile from http://www.sangis.org/download/index.html.</gco:CharacterString>
+              </orderingInstructions>
+            </MD_StandardOrderProcess>
+          </distributionOrderProcess>
+        </MD_Distributor>
+      </distributor>
+    </MD_Distribution>
+  </distributionInfo>
+  <metadataMaintenance>
+    <MD_MaintenanceInformation>
+      <maintenanceAndUpdateFrequency>
+        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
+      </maintenanceAndUpdateFrequency>
+    </MD_MaintenanceInformation>
+  </metadataMaintenance>
+</MD_Metadata>
